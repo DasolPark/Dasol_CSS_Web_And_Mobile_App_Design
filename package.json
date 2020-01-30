@@ -1,0 +1,25 @@
+{
+  "name": "Dasol_CSS_Web-Design",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function": {}
+    }
+  },
+  "devDependencies": {
+    "postcss-color-mod-function": "^3.0.3"
+  }
+}

@@ -1,0 +1,7 @@
+@import './reset.css';
+@import './index.css';
+
+:root {
+  --firstOne: #d0edf5;
+  --firstTwo: #e2f0d6;
+}
