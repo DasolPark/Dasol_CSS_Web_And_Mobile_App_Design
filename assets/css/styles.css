@@ -2,6 +2,23 @@
 @import './index.css';
 
 :root {
-  --firstOne: #d0edf5;
-  --firstTwo: #e2f0d6;
+  --firstOneColor: #d0edf5;
+  --firstTwoColor: #e2f0d6;
+  --firstThreeColor: #f9fab6;
+  --firstFourColor: #ebebeb;
+  --firstFiveColor: #ebebeb;
+  --firstSixColor: #fdc3c2;
+  --firstSevenColor: #d0edf5;
+  --firstEightColor: #e2f0d6;
+  --firstNineColor: #fdf9ba;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  width: 100%;
+  height: 100vh;
 }
