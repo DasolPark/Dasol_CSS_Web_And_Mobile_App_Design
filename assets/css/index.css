@@ -216,4 +216,27 @@ body {
       font-weight: 600;
     }
   }
+
+  & .index__item:nth-child(18) {
+    margin-top: 50px;
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    & .footer__column {
+      margin-right: 30px;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+
+  & .index__item:nth-child(19) {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 }
