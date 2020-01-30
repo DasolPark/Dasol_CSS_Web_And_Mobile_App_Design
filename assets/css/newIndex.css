@@ -1,0 +1,282 @@
+body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__container {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30vh;
+  grid-auto-rows: 30vh;
+  grid-gap: 1rem;
+  align-content: start;
+  justify-content: center;
+}
+
+.index__container .index__item {
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.index__container .index__item:first-child {
+  font-size: 3rem;
+}
+
+.index__item:first-child h1 {
+  cursor: pointer;
+}
+
+.index__container .index__item:nth-child(2) {
+  grid-column: span 2;
+  display: flex;
+}
+
+.index__container .index__item:nth-child(2) .index__lists {
+  margin-right: 15%;
+}
+
+.index__container .index__item:nth-child(2) .index__list:first-child {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(2) .index__list {
+  line-height: 1.5rem;
+}
+
+.index__container .index__item:nth-child(2) .index__lists a {
+  color: inherit;
+  font-weight: 600;
+}
+
+.index__container .index__item:nth-child(2) .index__lists a:not(.list-title) {
+  text-decoration: none;
+}
+
+.index__container .index__item:nth-child(2) .index__lists .list-title {
+  opacity: 0.4;
+}
+
+.index__container .index__item:nth-child(3) {
+  background-color: var(--firstOneColor);
+  grid-row: span 2;
+  padding: 40px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(3) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(3) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(3) span {
+  font-weight: 600;
+}
+
+.index__item:nth-child(4) {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-image: url('https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80');
+}
+
+.index__container .index__item:nth-child(5) {
+  background-color: var(--firstTwoColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(5) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(5) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(5) span {
+  font-weight: 600;
+}
+
+.index__item:nth-child(6) {
+  grid-row: span 2;
+  background-image: url('https://images.unsplash.com/photo-1472207241423-9e30d66d4b0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+}
+
+.index__container .index__item:nth-child(7) {
+  background-color: var(--firstThreeColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(7) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(7) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(7) span {
+  font-weight: 600;
+}
+
+.index__container .index__item:nth-child(8) {
+  background-color: var(--firstFourColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(8) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(8) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(8) span {
+  font-weight: 600;
+}
+
+.index__container .index__item:nth-child(9) {
+  background-color: var(--firstFiveColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(9) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(9) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(9) span {
+  font-weight: 600;
+}
+
+.index__container .index__item:nth-child(10) {
+  grid-area: span 2 / span 2;
+  background-color: var(--firstSixColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(10) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(10) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(10) span {
+  font-weight: 600;
+}
+
+.index__item:nth-child(11) {
+  grid-row: span 2;
+  background-image: url('https://images.unsplash.com/photo-1462830216937-416fec1e5609?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+}
+
+.index__item:nth-child(12) {
+  grid-area: span 2 / span 2;
+  background-image: url('https://images.unsplash.com/photo-1549519146-fc64f76e4314?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+}
+
+.index__item:nth-child(13) {
+  background-image: url('https://images.unsplash.com/photo-1499590206382-9f85678c0e3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+}
+
+.index__item:nth-child(14) {
+  background-color: var(--firstSevenColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13rem;
+}
+
+.index__item:nth-child(14) span {
+  color: color-mod(#3498db whiteness(60%));
+}
+
+.index__container .index__item:nth-child(15) {
+  grid-area: span 2 / span 2;
+  background-color: var(--firstEightColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(15) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(15) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(15) span {
+  font-weight: 600;
+}
+
+.index__item:nth-child(16) {
+  background-image: url('https://images.unsplash.com/photo-1444216471271-7923844c3f9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+}
+
+.index__container .index__item:nth-child(17) {
+  background-color: var(--firstNineColor);
+  padding: 20px 10px 0px 10px;
+}
+
+.index__container .index__item:nth-child(17) h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(17) p {
+  margin-bottom: 20px;
+}
+
+.index__container .index__item:nth-child(17) span {
+  font-weight: 600;
+}
+
+.index__item:nth-child(18) {
+  margin-top: 50px;
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.index__item:nth-child(18) .footer__column {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.index__item:nth-child(19) {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
