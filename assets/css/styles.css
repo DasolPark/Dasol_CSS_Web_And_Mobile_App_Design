@@ -1,5 +1,4 @@
 @import './reset.css';
-@import './newIndex.css';
 
 :root {
   --firstOneColor: #d0edf5;
@@ -11,6 +10,9 @@
   --firstSevenColor: #d0edf5;
   --firstEightColor: #e2f0d6;
   --firstNineColor: #fdf9ba;
+
+  --twoBgColor: #fafafc;
+  --twoIconBgColor: #ffffff;
 }
 
 * {
@@ -21,4 +23,24 @@ body {
   font-family: system-ui;
   width: 100%;
   height: 100vh;
+  position: relative;
+}
+
+.prev-next__wrapper {
+  position: absolute;
+  top: 0px;
+}
+
+.prev-next-btns {
+  all: unset;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.prev-next-btns a {
+  text-decoration: none;
 }
