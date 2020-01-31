@@ -7,8 +7,12 @@
 }
 
 .header {
-  align-self: flex-start;
-  margin: 25px 0px 25px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin: 30px 0px 10px 15px;
 }
 
 .header .header__title {
@@ -131,6 +135,8 @@
 
 .recipes {
   width: 100%;
+  height: 35vh;
+  overflow: scroll;
 }
 
 .recipes__lists {
@@ -142,7 +148,7 @@
 
 .recipes__list {
   width: 100%;
-  padding: 10px;
+  padding: 15px 10px 15px 10px;
   font-weight: 600;
   border-bottom: 2px solid rgba(0, 0, 0, 0.12);
   display: flex;
@@ -176,8 +182,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.03);
-  z-index: 4;
+  background-color: #bdc3c7;
 }
 
 .nav-footer__list {
@@ -199,7 +204,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid #ecf0f169;
   border-radius: 50%;
   font-size: 1.2rem;
   margin-bottom: 5px;
