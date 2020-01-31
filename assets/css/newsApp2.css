@@ -33,6 +33,10 @@
   border-radius: 15px;
 }
 
+.theme__item-cover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 .title-h3 {
   font-size: 1rem;
   font-weight: 700;
@@ -61,8 +65,9 @@
 }
 
 .theme .theme__item:first-child {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
   grid-column: span 2;
-  background-image: url('https://images.unsplash.com/photo-1542528180-a1208c5169a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1057&q=80');
+  background-image: url('https://images.unsplash.com/photo-1515086215594-3427c60130a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
 }
 
 .theme .theme__item:not(:first-child) {

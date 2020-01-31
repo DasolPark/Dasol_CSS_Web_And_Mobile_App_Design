@@ -35,6 +35,8 @@
 }
 
 .up-to-date__item .up-to-date__cover {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+
   width: 150px;
   height: 150px;
   border-radius: 15px;
@@ -73,9 +75,10 @@
 }
 
 .star-writer__item {
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
   display: flex;
   align-items: center;
+  border-radius: 5px;
 }
 
 .star-writer__item .star-writer__column:first-child {
