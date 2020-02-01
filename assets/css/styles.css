@@ -13,6 +13,11 @@
 
   --twoBgColor: #fafafc;
   --twoIconBgColor: #ffffff;
+
+  --artisticHeaderColor: linear-gradient(to right, #c0392b, #8e44ad);
+  --artisticBgColor: #d5d5d3;
+  --artisticBoxShadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 * {
