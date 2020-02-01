@@ -1,0 +1,111 @@
+.artisticBlogWebSite-body {
+  width: 100%;
+  height: 100vh;
+  padding: 40px 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0px 40px;
+}
+
+.header .header__column:first-child {
+  transform: rotate(90deg);
+  font-weight: 600;
+}
+
+.header .header__column:nth-child(2) {
+  font-weight: 600;
+}
+
+.gallery {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  background-color: var(--gray);
+  padding: 40px 10vw;
+}
+
+.gallery-item {
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  box-shadow: var(--boxShadow);
+}
+
+.gallery-item:first-child {
+  background-image: url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60');
+}
+
+.gallery-item:nth-child(2) {
+  background-image: url('https://images.unsplash.com/photo-1519145897500-869c40ccb024?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60');
+}
+
+.gallery-item:nth-child(3) {
+  background-image: url('https://images.unsplash.com/photo-1463438690606-f6778b8c1d10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60');
+}
+
+.content {
+  width: 100%;
+  height: 40vh;
+  padding: 40px 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.content-item:first-child {
+  grid-row: span 3;
+}
+
+.content__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.brief-lists {
+  display: flex;
+}
+
+.brief-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.brief-list span:first-child {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.brief-list span:nth-child(2) {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 600;
+}
+
+.content-item .content__desc {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.content-item:first-child .content__desc {
+  margin-bottom: 30px;
+}
+
+.content-item:first-child .content__learn-more {
+  font-weight: 600;
+  text-decoration: underline;
+  opacity: 0.8;
+}
