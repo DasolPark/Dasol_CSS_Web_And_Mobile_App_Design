@@ -1,6 +1,7 @@
-# Web Design with CSS(Flexbox, Grid, Postcss, CSSNext, CSS4)
+# Web And Mobile Application Design with CSS
 
-- URL: 👉https://dasolpark.github.io/Dasol_CSS_Web-Design/
+- URL: 👉https://dasolpark.github.io/Dasol_CSS_Web_And_Mobile_App_Design
+- Flexbox, Grid, Postcss, CSSNext, CSS4, parcel
 
 # Goals
 
